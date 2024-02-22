@@ -198,27 +198,22 @@ void Game::endGame()
 
 	crupierCheck();
 
-	if (crupier == player)
-	{
+	if (player > 21) {
+		bet = 0;
+	}
+	else if (crupier > 21) {
+		balance += bet * 2;
+		bet = 0;
+	}
+	else if (player == crupier) {
 		balance += bet;
 		bet = 0;
 	}
-	else if (player > 21)
-	{
-		bet = 0;
-	}
-	else if (crupier > player)
-	{
-		bet = 0;
-	}
-	else if (crupier < player)
-	{
+	else if (player > crupier) {
 		balance += bet * 2;
 		bet = 0;
 	}
-	else if (crupier > 21)
-	{
-		balance += bet * 2;
+	else {
 		bet = 0;
 	}
 }
