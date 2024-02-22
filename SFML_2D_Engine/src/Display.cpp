@@ -110,3 +110,26 @@ sf::VertexArray Display::numArray(sf::Vector2f position, sf::Vector2f size, int 
 
 	return triangleStrip;
 }
+
+sf::VertexArray Display::tile(sf::Vector2f position, sf::Vector2f size, int tileSetWidth, int tileSetHeight, sf::Vector2f texSize, int tileTex[11][11])
+{
+	sf::VertexArray triangleStrip(sf::Quads, 4 * (tileSetWidth * tileSetHeight));
+
+	for (int i = 0; i < tileSetHeight; i++)
+	{
+		for (int j = 0; j < tileSetWidth; j++)
+		{
+			triangleStrip[0 + (j * 4) + (i * (4 * tileSetWidth))].position = sf::Vector2f(position.x + (j * size.x), position.y + (i * size.y));
+			triangleStrip[1 + (j * 4) + (i * (4 * tileSetWidth))].position = sf::Vector2f(position.x + size.x + (j * size.x), position.y + (i * size.y));
+			triangleStrip[2 + (j * 4) + (i * (4 * tileSetWidth))].position = sf::Vector2f(position.x + size.x + (j * size.x), position.y + size.y + (i * size.y));
+			triangleStrip[3 + (j * 4) + (i * (4 * tileSetWidth))].position = sf::Vector2f(position.x + (j * size.x), position.y + size.y + (i * size.y));
+
+			triangleStrip[0 + (j * 4) + (i * (4 * tileSetWidth))].texCoords = sf::Vector2f(texSize.x * tileTex[i][j], 0);
+			triangleStrip[1 + (j * 4) + (i * (4 * tileSetWidth))].texCoords = sf::Vector2f(texSize.x * tileTex[i][j] + texSize.x, 0);
+			triangleStrip[2 + (j * 4) + (i * (4 * tileSetWidth))].texCoords = sf::Vector2f(texSize.x * tileTex[i][j] + texSize.x, texSize.y);
+			triangleStrip[3 + (j * 4) + (i * (4 * tileSetWidth))].texCoords = sf::Vector2f(texSize.x * tileTex[i][j], texSize.y);
+		}
+	}
+
+	return triangleStrip;
+}

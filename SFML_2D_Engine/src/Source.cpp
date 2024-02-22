@@ -121,7 +121,7 @@ int main()
 						game.window->draw(interface.cardArray(sf::Vector2f(428.0f, 32.0f), sf::Vector2f(56, 84), game.playCards[6], game.playCards[11]), &interface.cards);
 						break;
 					case 4:
-						game.window->draw(interface.cardArray(sf::Vector2f(600.0f, 32.0f), sf::Vector2f(56, 84), game.playCards[6], game.playCards[15]), &interface.cards);
+						game.window->draw(interface.cardArray(sf::Vector2f(492.0f, 32.0f), sf::Vector2f(56, 84), game.playCards[6], game.playCards[15]), &interface.cards);
 						game.window->draw(interface.cardArray(sf::Vector2f(428.0f, 32.0f), sf::Vector2f(56, 84), game.playCards[6], game.playCards[11]), &interface.cards);
 						break;
 					case 5:
@@ -130,7 +130,7 @@ int main()
 						game.window->draw(interface.cardArray(sf::Vector2f(556.0f, 32.0f), sf::Vector2f(56, 84), game.playCards[6], game.playCards[19]), &interface.cards);
 						break;
 					case 6:
-						game.window->draw(interface.cardArray(sf::Vector2f(600.0f, 32.0f), sf::Vector2f(56, 84), game.playCards[6], game.playCards[15]), &interface.cards);
+						game.window->draw(interface.cardArray(sf::Vector2f(492.0f, 32.0f), sf::Vector2f(56, 84), game.playCards[6], game.playCards[15]), &interface.cards);
 						game.window->draw(interface.cardArray(sf::Vector2f(428.0f, 32.0f), sf::Vector2f(56, 84), game.playCards[6], game.playCards[11]), &interface.cards);
 						game.window->draw(interface.cardArray(sf::Vector2f(556.0f, 32.0f), sf::Vector2f(56, 84), game.playCards[6], game.playCards[19]), &interface.cards);
 						game.window->draw(interface.cardArray(sf::Vector2f(620.0f, 32.0f), sf::Vector2f(56, 84), game.playCards[6], game.playCards[23]), &interface.cards);
@@ -158,7 +158,7 @@ int main()
 						game.window->draw(interface.cardArray(sf::Vector2f(428.0f, 32.0f), sf::Vector2f(56, 84), game.playCards[6], game.playCards[11]), &interface.cards);
 						break;
 					case 4:
-						game.window->draw(interface.cardArray(sf::Vector2f(600.0f, 32.0f), sf::Vector2f(56, 84), game.playCards[6], game.playCards[15]), &interface.cards);
+						game.window->draw(interface.cardArray(sf::Vector2f(492.0f, 32.0f), sf::Vector2f(56, 84), game.playCards[6], game.playCards[15]), &interface.cards);
 						game.window->draw(interface.cardArray(sf::Vector2f(428.0f, 32.0f), sf::Vector2f(56, 84), game.playCards[6], game.playCards[11]), &interface.cards);
 						break;
 					case 5:
@@ -167,7 +167,7 @@ int main()
 						game.window->draw(interface.cardArray(sf::Vector2f(556.0f, 32.0f), sf::Vector2f(56, 84), game.playCards[6], game.playCards[19]), &interface.cards);
 						break;
 					case 6:
-						game.window->draw(interface.cardArray(sf::Vector2f(600.0f, 32.0f), sf::Vector2f(56, 84), game.playCards[6], game.playCards[15]), &interface.cards);
+						game.window->draw(interface.cardArray(sf::Vector2f(492.0f, 32.0f), sf::Vector2f(56, 84), game.playCards[6], game.playCards[15]), &interface.cards);
 						game.window->draw(interface.cardArray(sf::Vector2f(428.0f, 32.0f), sf::Vector2f(56, 84), game.playCards[6], game.playCards[11]), &interface.cards);
 						game.window->draw(interface.cardArray(sf::Vector2f(556.0f, 32.0f), sf::Vector2f(56, 84), game.playCards[6], game.playCards[19]), &interface.cards);
 						game.window->draw(interface.cardArray(sf::Vector2f(620.0f, 32.0f), sf::Vector2f(56, 84), game.playCards[6], game.playCards[23]), &interface.cards);
@@ -201,7 +201,7 @@ int main()
 						game.window->draw(interface.cardArray(sf::Vector2f(428.0f, 32.0f), sf::Vector2f(56, 84), game.playCards[6], game.playCards[11]), &interface.cards);
 						break;
 					case 4:
-						game.window->draw(interface.cardArray(sf::Vector2f(600.0f, 32.0f), sf::Vector2f(56, 84), game.playCards[6], game.playCards[15]), &interface.cards);
+						game.window->draw(interface.cardArray(sf::Vector2f(492.0f, 32.0f), sf::Vector2f(56, 84), game.playCards[6], game.playCards[15]), &interface.cards);
 						game.window->draw(interface.cardArray(sf::Vector2f(428.0f, 32.0f), sf::Vector2f(56, 84), game.playCards[6], game.playCards[11]), &interface.cards);
 						break;
 					case 5:
@@ -210,7 +210,7 @@ int main()
 						game.window->draw(interface.cardArray(sf::Vector2f(556.0f, 32.0f), sf::Vector2f(56, 84), game.playCards[6], game.playCards[19]), &interface.cards);
 						break;
 					case 6:
-						game.window->draw(interface.cardArray(sf::Vector2f(600.0f, 32.0f), sf::Vector2f(56, 84), game.playCards[6], game.playCards[15]), &interface.cards);
+						game.window->draw(interface.cardArray(sf::Vector2f(492.0f, 32.0f), sf::Vector2f(56, 84), game.playCards[6], game.playCards[15]), &interface.cards);
 						game.window->draw(interface.cardArray(sf::Vector2f(428.0f, 32.0f), sf::Vector2f(56, 84), game.playCards[6], game.playCards[11]), &interface.cards);
 						game.window->draw(interface.cardArray(sf::Vector2f(556.0f, 32.0f), sf::Vector2f(56, 84), game.playCards[6], game.playCards[19]), &interface.cards);
 						game.window->draw(interface.cardArray(sf::Vector2f(620.0f, 32.0f), sf::Vector2f(56, 84), game.playCards[6], game.playCards[23]), &interface.cards);
