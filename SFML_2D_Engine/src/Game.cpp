@@ -5,7 +5,7 @@ void Game::initWindow()
 	videoMode.width = 720;
 	videoMode.height = 480;
 	window = new sf::RenderWindow(videoMode, "Simple Black Jack", sf::Style::Titlebar | sf::Style::Close);
-	window->setPosition(sf::Vector2i(200, 100));
+	window->setPosition(sf::Vector2i(250, 100));
 	window->setFramerateLimit(60);
 	//window->setPosition(sf::Vector2i(100, -1000));
 	ico.loadFromFile("assets/ico.png");
